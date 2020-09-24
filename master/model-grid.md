@@ -441,6 +441,15 @@ $grid->perPages([10, 20, 30, 40, 50]);
 $grid->disablePerPages();
 ```
 
+
+### 设置创建按钮跳转带上参数
+```php
+$grid->model()->setConstraints([
+      'key' => 'value',
+]);
+```
+
+
 ### addTableClass
 
 > {tip} Since `v1.5.2`
